@@ -75,7 +75,6 @@ position: relative;
 
 .shoes1_shop-basket{
     background: #5CBE3A;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     width: 149px;
     height: 49px;
@@ -327,6 +326,7 @@ color: #051101;
 }
 
 .t2__view {
+    width: 240px;
     margin: 20px 80px 120px 80px;
     text-align: left;
     font-family: 'Raleway';
@@ -358,7 +358,7 @@ opacity: 0.7;
     position: relative;
     grid-column: 7 / span 8;
     top: 50px;
-    left: -590px;
+    left: -590px; 
     grid-row: 1;
     padding-top: 20%;
     z-index: 1;
@@ -369,6 +369,7 @@ opacity: 0.7;
     grid-column: 1 / -1;
     grid-row: 1;
     top: 130px ;
+
 }
 
 .runner__text { 
