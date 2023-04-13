@@ -1,0 +1,405 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+.section {
+    width: 100%; 
+}
+
+.header {
+    background-color: #EBFFE4;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    font-family: 'montserratregular', 'Arial', sans-serif;
+    height: 100%;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+}
+
+.section__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}    
+.container {
+position: relative;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+        
+
+.mainmenu__list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.mainmenu__item {
+    margin: 0px 20px;
+}
+
+.shop-basket {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    
+    
+    background: #5CBE3A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.shoes1_shop-basket{
+    background: #5CBE3A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    width: 149px;
+    height: 49px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+    
+}
+
+.shoes2_shop-basket {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(92, 190, 58, 0.3);
+    border-radius: 4px;
+    width: 149px;
+    height: 49px;
+    margin-left: 30px;
+}
+
+.shoes__buttons{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.number__shoes {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 85px;
+/* identical to box height, or 102px */
+color: #5CBE3A;
+}
+
+.tn__shoes {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+color: #051101;
+opacity: 0.7;
+}
+
+.banner {
+    margin-top: 90px;
+}
+
+.shoes__wrapper {
+    position: relative;
+}
+
+.shoes__item {     
+        display: flex;
+        justify-content: space-between;
+        min-height: 564px;
+        background: url('../img/usama-akram-kP6knT7tjn4-unsplash-removebg\ 1.png') no-repeat 115%;
+
+}
+
+.st1 {
+    text-align: left;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 140%;
+/* or 31px */
+text-transform: uppercase;
+color: #5CBE3A;
+}
+
+.st2 {
+    text-align: left;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 61px;
+line-height: 120%;
+/* or 73px */
+color: #051101;
+}
+
+.st3 {
+    width: 360px;
+    text-align: left;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #051101;
+opacity: 0.7;
+}
+.st4 {
+    text-align: left;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #051101;
+opacity: 0.7;
+}
+
+.st5 {
+    text-align: left;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 31px;
+line-height: 130%;
+/* or 40px */
+color: #5CBE3A;
+}
+
+.st__decor{
+    color: #5CBE3A;
+}
+
+.money__decor {
+    font-size: 25px;
+    margin-left: 40px;
+    text-decoration: line-through;
+}
+.shoes__title {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 130%;
+text-align: center;
+margin-top: 80px;
+}
+
+
+
+.shoes__text {
+    margin-top: 150px;
+    width: 350px;
+    display: flex;
+    justify-content: center ;
+}
+
+.shoes__text__section {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin-top: 24px;
+text-align: center;
+color: #051101;
+opacity: 0.7;
+}
+.css_for_shoes {
+    position: relative;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text__collection {
+    position: relative;
+    right: -30px;
+    text-align: center;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 140%;
+/* identical to box height, or 31px */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.shoes__collection {
+    display: flex;
+    justify-content: center;
+}
+
+.shoes1_in_collection {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+.photo1__collection {
+    grid-column: 4 / span 8;
+    grid-row: 1;
+    padding-top: 50%;
+    z-index: 1;
+}
+
+.photo2__collection {
+    position: relative;
+    grid-column: 4 / -1;
+    grid-row: 1;
+    left: -30px;
+
+}
+
+.text__view {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 218.216px;
+line-height: 130%;
+/* or 284px */
+
+text-align: center;
+
+color: #E5F2E1;
+
+transform: rotate(-90deg);
+}
+
+.div__view {
+    width: 500px;
+    background: #F6FFF3;
+    border-radius: 10px;
+}
+
+.view__banner {
+    padding-top: 180px;
+    display: flex;
+    justify-content: center;
+}
+.t1__view {
+    margin: 120px 80px 20px 80px;
+    text-align: left;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 130%;
+/* or 57px */
+color: #051101;
+}
+
+.t2__view {
+    margin: 20px 80px 120px 80px;
+    text-align: left;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+color: #051101;
+
+opacity: 0.7;
+}
+
+.main__runner {
+    display: flex;
+    justify-content: center;
+}
+
+.stack__runner {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+
+.runner1__photo {
+    position: relative;
+    grid-column: 1 / span 8;
+    top: 50px;
+    left: -590px;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 1;
+}
+
+.runner2__photo {
+    grid-column: 4 / -1;
+    grid-row: 1;
+}
+
+.runner__text {
+    position: absolute;
+    right: 150px;
+    width: 800px;
+    background: url('../img/nike.png') no-repeat;
+    padding-top: 20%;
+}
+
+.title__runner {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 130%;
+/* or 57px */
+
+
+color: #051101;
+}
+
+.basic__runner {
+    font-family: 'Raleway';
+    padding: 10px;
+    margin: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+color: #051101;
+
+opacity: 0.7;
+}
