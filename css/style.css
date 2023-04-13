@@ -32,7 +32,7 @@ body {
     flex-direction: column;
     font-family: 'montserratregular', 'Arial', sans-serif;
     height: 100%;
-    min-width: 320px;
+    min-width: 320x;
     margin: 0;
     padding: 0;
 }
@@ -347,7 +347,8 @@ opacity: 0.7;
     justify-content: center;
 }
 
-.stack__runner {
+.stack__photo {
+    margin-right: 200px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     position: relative;
@@ -355,7 +356,7 @@ opacity: 0.7;
 
 .runner1__photo {
     position: relative;
-    grid-column: 1 / span 8;
+    grid-column: 7 / span 8;
     top: 50px;
     left: -590px;
     grid-row: 1;
@@ -364,13 +365,15 @@ opacity: 0.7;
 }
 
 .runner2__photo {
-    grid-column: 4 / -1;
+    position: relative;
+    grid-column: 1 / -1;
     grid-row: 1;
+    top: 130px ;
 }
 
-.runner__text {
+.runner__text { 
     position: absolute;
-    right: 150px;
+    right: 170px;
     width: 800px;
     background: url('../img/nike.png') no-repeat;
     padding-top: 20%;
