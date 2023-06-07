@@ -62,14 +62,20 @@ position: relative;
 
 .mainmenu__link {
     text-decoration: none;
-    color: #051101;
+    color: #0511018f;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    transition: all 0.5s ease;
+    outline: none;
 }
 
+.mainmenu__link:hover,
+.mainmenu__link:focus {
+    color: black;
+}
 
 .octagon__item {
     position: absolute;
@@ -92,9 +98,16 @@ position: relative;
     gap: 10px;
     color: white;
     background: #5CBE3A;
+    transition: background-color 0.5s;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     border: none;
+    outline: none;
+}
+
+.shop-basket:hover,
+.shop-basket:focus {
+    background-color: green;
 }
 
 .shoes1_shop-basket{
@@ -103,12 +116,19 @@ position: relative;
     color: white;
     margin-right: 30px;
     border-radius: 4px;
+    transition: background-color 0.5s;
     width: 149px;
     height: 49px;
     align-items: center;
     flex-direction: row;
     justify-content: center;
     border: none;
+    outline: none;
+}
+
+.shoes1_shop-basket:hover,
+.shoes1_shop-basket:focus {
+    background-color: green;
 }
 
 .shoes2_shop-basket {
@@ -117,10 +137,22 @@ position: relative;
     justify-content: center;
     align-items: center;
     border: 1px solid rgba(92, 190, 58, 0.3);
+    transition: background-color 0.5s, color 0.5s;
     border-radius: 4px;
     width: 149px;
     height: 49px;
     background-color: white;
+    outline: none;
+}
+
+.shoes2_shop-basket:hover,
+.shoes2_shop-basket:focus {
+    background-color: green;
+}
+
+.shoes2_shop-basket:hover .shoes2__shop,
+.shoes2_shop-basket:focus .shoes2__shop {
+    color: white;
 }
 
 .learn_shop-basket {
@@ -128,12 +160,19 @@ position: relative;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.5s;
     border: 1px solid rgba(92, 190, 58, 0.3);
     border-radius: 4px;
     width: 149px;
     height: 49px;
     color: #5CBE3A;
     background-color: #EBFFE4;
+    outline: none;
+}
+
+.learn_shop-basket:hover,
+.learn_shop-basket:focus {
+    background-color: white;
 }
 
 .shoes__buttons{
@@ -538,15 +577,10 @@ position: relative;
 .runner1__photo {
     position: relative;
     grid-column: 7 / span 8;
-<<<<<<< HEAD
     width: 636px;
     height: 568px;
     top: 7%;
     right: 93%; 
-=======
-    top: 50px;
-    left: -590px; 
->>>>>>> bf52050a169b9755486a5149f905484fdac38059
     grid-row: 1;
     padding-top: 20%;
     z-index: 1;
@@ -558,7 +592,6 @@ position: relative;
     grid-row: 1;
     top: 130px ;
 
-<<<<<<< HEAD
 }
 
 .nike__runner {   
@@ -566,8 +599,6 @@ position: relative;
     left: 50%;
     padding-top: 250px
 
-=======
->>>>>>> bf52050a169b9755486a5149f905484fdac38059
 }
 
 .runner__text { 
@@ -636,6 +667,8 @@ opacity: 0.7;
     justify-content: center;
 }
 
+
+
 .short__menu__button {
     width: 200px;
     padding: 15px;
@@ -646,8 +679,15 @@ opacity: 0.7;
     font-weight: 600;
     font-size: 22px;
     line-height: 140%;
-
+    transition: background-color 0.5s, color 0.5s;
+    outline: none;
     color: #5CBE3A;
+}
+
+.short__menu__button:hover,
+.short__menu__button:focus {
+    background-color: green;
+    color: white;
 }
 
 .arrow__short__menu {
@@ -829,6 +869,16 @@ opacity: 0.7;
     opacity: 0.7;
 }
 
+.header__logo {
+    outline: none;
+    transition: all 0.5s ease;
+}
+
+.header__logo:hover .vector__logo,
+.header__logo:focus .vector__logo{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
 
 .button__inside__get {
     display: flex;
@@ -840,14 +890,23 @@ opacity: 0.7;
     background: #5CBE3A;
     border-radius: 4px;
     border: none;
+    transition: background-color 0.5s;
     color: white;
     width: 158px;
     height: 49px;
+    outline: none;
+}
+
+.button__inside__get:hover,
+.button__inside__get:focus {
+    background-color: green;
 }
 
 .vector__logo {
     width: 94px;
     height: 32px;
+    outline: none;
+    transition: all 0.5s ease;
 }
 
 .text__inside__button {
@@ -909,9 +968,15 @@ opacity: 0.7;
     font-size: 22px;
     line-height: 140%;
     /* identical to box height, or 31px */
+    text-decoration: none;
+    transition: all 0.5s ease;
 
+    color: #0511018f;;
+}
 
-    color: #051101;
+.mainmenu__link__2:hover,
+.mainmenu__link__2:focus {
+    color: black;
 }
 
 .mainmenu__item__2 {
@@ -920,6 +985,13 @@ opacity: 0.7;
 
 .svg__menu {
     margin-right: 102px;
+    transition: all 0.5s ease;
+}
+
+.svg__menu:hover,
+.svg__menu:focus {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
 }
 
 .follow__text {
