@@ -538,10 +538,15 @@ position: relative;
 .runner1__photo {
     position: relative;
     grid-column: 7 / span 8;
+<<<<<<< HEAD
     width: 636px;
     height: 568px;
     top: 7%;
     right: 93%; 
+=======
+    top: 50px;
+    left: -590px; 
+>>>>>>> bf52050a169b9755486a5149f905484fdac38059
     grid-row: 1;
     padding-top: 20%;
     z-index: 1;
@@ -553,6 +558,7 @@ position: relative;
     grid-row: 1;
     top: 130px ;
 
+<<<<<<< HEAD
 }
 
 .nike__runner {   
@@ -560,6 +566,8 @@ position: relative;
     left: 50%;
     padding-top: 250px
 
+=======
+>>>>>>> bf52050a169b9755486a5149f905484fdac38059
 }
 
 .runner__text { 
